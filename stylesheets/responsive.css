@@ -276,7 +276,7 @@ h1 {font-size:20px;}
 .image_carousel {overflow:hidden;}
 }
 
-/*Responsive Youtube Embed*/
+/* Responsive Youtube Embed */
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -292,3 +292,8 @@ h1 {font-size:20px;}
     width: 100%;
     height: 100%;
 }
+
+/* Responsive iframe */
+.wrapper         {width:80%; max-width: 1200px; height:100%; margin:0 auto; background:#CCC}
+.h_iframe        {position:relative; padding-top: 50%;}
+.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
