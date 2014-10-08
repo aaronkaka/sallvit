@@ -763,7 +763,7 @@ a.projectdetail { background: #33877d; color: #fff; padding: 7px 7px 6px 7px; fo
 a:focus { outline: none }
 #panel { background: #222; height: 70px; display: none; color: #fff; padding: 20px 0 25px 0; }
 .slide { margin: 0; padding: 0; }
-.btn-slide { text-align: center; width: 20px; height: 10px; padding: 10px 10px 0 0; margin: 0 auto; display: block; font: bold 120%/100% Arial, Helvetica, sans-serif; color: #fff; text-decoration: none; float: right; }
+.btn-slide { text-align: center; width: 50px; height: 10px; padding: 10px 10px 0 0; margin: 0 auto; display: block; font: bold 120%/100% Arial, Helvetica, sans-serif; color: #fff; text-decoration: none; float: right; }
 .pics { float: left; margin-right: 10px; }
 .infotext { margin-top: 7px }
 #subheader {  position: relative; padding: 25px 50px; position: relative; }
@@ -819,6 +819,7 @@ a:focus { outline: none }
 .facebook:hover { background: url(../images/socialpack/facebooka.png) }
 .twitter { background: url(../images/socialpack/twitter.png) }
 .twitter:hover { background: url(../images/socialpack/twittera.png) }
+.linkedin { background: url(../images/socialpack/Linkedin.png) }
 .dribbble { background: url(../images/socialpack/dribbble.png) }
 .dribbble:hover { background: url(../images/socialpack/dribbblea.png) }
 .deviantart { background: url(../images/socialpack/deviantart.png) }
