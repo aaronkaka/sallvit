@@ -4,7 +4,6 @@
   var $doc = $(document),
       Modernizr = window.Modernizr;
 
-  
   $.fn.foundationAlerts           ? $doc.foundationAlerts() : null;
   $.fn.foundationAccordion        ? $doc.foundationAccordion() : null;
   $.fn.foundationTooltips         ? $doc.foundationTooltips() : null;
@@ -44,5 +43,17 @@
       }, 0);
     });
   }
+
+  $(document).ready(function () {
+
+    // Load video(s) after DOM has rendered
+    var vidDefer = document.getElementsByTagName('iframe');
+
+    for (var i = 0; i < vidDefer.length; i++) {
+      if (vidDefer[i].getAttribute('data-src')) {
+        vidDefer[i].setAttribute('src', vidDefer[i].getAttribute('data-src'));
+      }
+    }
+  });
 
 })(jQuery, this);
