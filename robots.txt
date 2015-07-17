@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /images/temp/aaron.png
+Disallow: /images/temp/cto_mini.jpg
